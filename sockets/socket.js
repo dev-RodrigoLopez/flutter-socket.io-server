@@ -60,10 +60,11 @@ const Band = require('../models/band');
 
 const bands = new Bands();
 
-bands.addBand( new Band( 'Breaking Benjamin', 'Morena', 'Jorge Acero', 2, 2, 'Blanco' ) );
-bands.addBand( new Band( 'Bon Jovi', 'Mover a Chiapas', 'Hernan Mancilla', 3, 3, 'Morado') );
-bands.addBand( new Band( 'Héroes del Silencio', 'Movimiento Naranja', 'Daniel Torres', 4,4,'Naranja'  ) );
-bands.addBand( new Band( 'Metallica', 'Pan', 'Don Arcenio', 5,5,'Azul' ) );
+bands.addBand( new Band( 'Breaking Benjamin', 'Morena', 'CP. Jorge Acero', 2, 2, 'Blanco' ) );
+bands.addBand( new Band( 'Bon Jovi', 'Mover a Chiapas', 'Lic. Hernan Mancilla', 3, 3, 'Morado') );
+bands.addBand( new Band( 'Héroes del Silencio', 'Movimiento Naranja', 'Lic. Daniel Torres', 4,4,'Naranja'  ) );
+bands.addBand( new Band( 'Metallica', 'Partido Accion Nacional', 'C. Don Arcenio', 5,5,'Azul' ) );
+bands.addBand( new Band( 'Metallica', 'Partido Revolución Institucional', 'Lic. Rigoberto Cortez ', 6,6,'Rojo' ) );
 
 
 // Mensajes de Sockets
