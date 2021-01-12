@@ -9,7 +9,7 @@ class Band {
         candidato = 'no-candidato',
         logo = 1,
         imagen = 1,
-        color = 'Colors.white'
+        color = 0xff6989F5
         ){
 
         this.id = uuidV4(); //Identificador unico
