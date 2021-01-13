@@ -10,9 +10,18 @@ class Bands{
         this.bands.push( band );
     }
 
+    // getBands(){
+    //     return this.bands;
+    // }
     getBands(){
+        this.bands = this.bands.sort(function compare(a,b) {
+            return b.votes - a.votes;
+        });
+        console.log(this.bands);
         return this.bands;
     }
+
+    
 
     deleteBand( id = ''){
         this.bands = this.bands.filter( band => band.id  !== id );
