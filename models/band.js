@@ -5,6 +5,7 @@ class Band {
 
     constructor( 
         name = 'no-name',
+        votes = 0,
         partido = 'no-partido',
         candidato = 'no-candidato',
         logo = 1,
@@ -14,7 +15,8 @@ class Band {
 
         this.id = uuidV4(); //Identificador unico
         this.name = name;
-        this.votes = 0;
+        
+        this.votes = votes;
 
         this.partido = partido;
         this.candidato = candidato;
